@@ -1,0 +1,23 @@
+# Рабочие материалы и результаты ревью не входят в публичную базу.
+private/
+inputs/
+outputs/
+reviews/
+memory/
+branched_contexts/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.pptx
+*.ppt
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.log
+*.zip
+.DS_Store
+~$*
