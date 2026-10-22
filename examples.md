@@ -23,6 +23,7 @@
 Скачайте нужные Markdown-файлы и приложите их к чату или добавьте в контекст модели. Один только путь к файлу не передаёт его содержимое; если загрузки файлов нет, вставьте текст с названием каждого файла.
 
 - **Для любой задачи**: [README.md](README.md), [AGENTS.md](AGENTS.md), [workflow.md](workflow.md), [slides/common.md](slides/common.md).
+- **Для текста**: дополнительно [texts/common.md](texts/common.md) и файл жанра из `texts/`.
 - **Для клиента**: дополнительно [slides/client.md](slides/client.md).
 - **Для стратегии**: дополнительно [slides/strategy.md](slides/strategy.md).
 
@@ -84,3 +85,17 @@
 ```
 
 Если нужна правка самого файла, назовите формат и разрешите редактирование. Результат попросите сохранить отдельной версией, не заменяя исходник.
+
+## Работа с текстами
+
+Подключите [texts/common.md](texts/common.md) и дополнение для жанра. Файлы `slides/strategy.md` и `slides/client.md` для текстов не нужны, кроме видения: оно ссылается на `slides/strategy.md`.
+
+```text
+Используй https://github.com/gkonnov/impact-slides.
+Прочитай AGENTS.md, workflow.md (раздел «Работа с текстами»),
+texts/common.md, указанные в нём пункты slides/common.md
+и texts/[essay / memo / vision / article / answers / case].md.
+Задача: [подготовить / доработать / проверить].
+Читатель и цель: [...]. Требования площадки: [...].
+Если есть краткая и полная версии, сверь их между собой.
+```
